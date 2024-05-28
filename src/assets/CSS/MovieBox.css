@@ -1,0 +1,35 @@
+.MovieBox{
+    height: 630px;
+    width: 300px;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.MovieBox div{
+
+    display: flex;
+    justify-content:space-between;
+    gap: 5px;
+}
+
+.MovieBox img{
+    margin: 1px auto;
+    height: 60%;
+    width: 90%;
+
+}
+
+.MovieTitle{
+    color: rgb(243, 0, 12);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+}
